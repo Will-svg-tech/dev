@@ -1,15 +1,56 @@
-# What is this?
+# Organograma do Setor de TI - Barril Cachaçaria
 
-The github.dev web-based editor is a lightweight editing experience that runs entirely in your browser. You can navigate files and source code repositories from GitHub, and make and commit code changes.
+Este projeto é uma visualização simples de um organograma para o setor de TI da empresa de bebidas fictícia "Barril Cachaçaria". Ele foi desenvolvido utilizando apenas HTML e CSS, representando a estrutura hierárquica do setor de tecnologia da informação da empresa.
 
-There are two ways to go directly to a VS Code environment in your browser and start coding:
+## Estrutura do Organograma
 
-* Press the . key on any repository or pull request.
-* Swap `.com` with `.dev` in the URL. For example, this repo https://github.com/github/dev becomes http://github.dev/github/dev
+O organograma é composto pelos seguintes cargos e equipes:
 
-Preview the gif below to get a quick demo of github.dev in action.
+- **Diretor de TI**
+  - **Gerente de Infraestrutura**
+    - Administração de Redes
+    - Suporte Técnico
+  - **Gerente de Desenvolvimento**
+    - Equipe de Desenvolvedores
+    - Analista de Sistemas
+  - **Gerente de Segurança**
+    - Equipe de Segurança da Informação
+    - Analista de Riscos
 
-![github dev](https://user-images.githubusercontent.com/856858/130119109-4769f2d7-9027-4bc4-a38c-10f297499e8f.gif)
+## Funcionalidades
 
-# Why?
-It’s a quick way to edit and navigate code. It's especially useful if you want to edit multiple files at a time or take advantage of all the powerful code editing features of Visual Studio Code when making a quick change. For more information, see our [documentation](https://github.co/codespaces-editor-help).
+- Exibição hierárquica clara dos cargos e suas respectivas equipes.
+- Interação visual simples, com mudança de cor ao passar o mouse sobre as caixas dos cargos.
+- Estrutura totalmente responsiva, mantendo a disposição do organograma em diferentes tamanhos de tela.
+
+## Como Usar
+
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` em qualquer navegador web para visualizar o organograma.
+3. O layout pode ser facilmente modificado ajustando o CSS e os cargos na estrutura HTML, caso você queira adicionar ou remover posições.
+
+## Customização
+
+- **Alterar Cargos**: Para adicionar ou remover cargos, edite a estrutura de listas no arquivo `index.html`. Cada nível hierárquico é representado por listas `<ul>` e itens de lista `<li>`.
+- **Estilo**: As cores, bordas, e outros aspectos de design podem ser ajustados no arquivo CSS dentro da tag `<style>`.
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Para estruturar o conteúdo do organograma.
+- **CSS3**: Para estilizar o organograma e criar as linhas de conexão entre os cargos.
+
+## Exemplo de Uso
+
+Este organograma pode ser útil para:
+
+- Representar a estrutura hierárquica de um setor de TI em uma empresa.
+- Visualizar a organização interna de equipes e suas responsabilidades.
+
+## Captura de Tela
+
+![Organograma TI - Barril Cachaçaria](screenshot.png)
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
